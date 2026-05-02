@@ -4,4 +4,4 @@ In this project I decied to explore the orientation option for additional reacti
 
 # Code
 
-[Project Folder]([https://github.com/InKremlin/CS-4300/blob/main/LiveCoding.wgsl](https://github.com/InKremlin/CS-4300/tree/main/Assignment-4-Reaction-Diffusion))
+[Project Folder](https://github.com/InKremlin/CS-4300/tree/main/Assignment-4-Reaction-Diffusion)
