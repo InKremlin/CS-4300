@@ -1,6 +1,6 @@
 # Site
 
-[GithubPages](https://github.com/InKremlin/CS-4300/tree/main/Assignment-4-Reaction-Diffusion)
+[GithubPages](https://inkremlin.github.io/4300-A4-Reaction-Diffusion/)
 
 # Explanation
 
