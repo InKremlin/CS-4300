@@ -1,8 +1,8 @@
 import { default as gulls } from 'gulls.js'
 
 const sg = await gulls.init(),
-      render_shader  = await gulls.import( './render.wgsl' ),
-      compute_shader = await gulls.import( './compute.wgsl' )
+      render_shader  = await gulls.import('./render.wgsl'),
+      compute_shader = await gulls.import('./compute.wgsl')
 
 const NUM_PARTICLES = 1024, 
       NUM_PROPERTIES = 4, 
@@ -14,8 +14,8 @@ for( let i = 0; i < NUM_PARTICLES * NUM_PROPERTIES; i+= NUM_PROPERTIES ) {
   state[ i + 2 ] = Math.random() * 10
 }
 
-const state_b = sg.buffer( state ),
-      frame_u = sg.uniform( 0 ),
+const state_b = sg.buffer(state),
+      frame_u = sg.uniform(0),
       res_u   = sg.uniform([ sg.width, sg.height ]) 
 
 const render = await sg.render({
@@ -25,13 +25,13 @@ const render = await sg.render({
     res_u,
     state_b
   ],
-  onframe() { frame_u.value++ },
+  onframe() {frame_u.value++},
   count: NUM_PARTICLES,
   blend: true
 })
 
 
-const dc = Math.ceil( NUM_PARTICLES / 64 )
+const dc = Math.ceil(NUM_PARTICLES / 64)
 
 const compute = sg.compute({
   shader: compute_shader,
@@ -39,8 +39,8 @@ const compute = sg.compute({
     res_u,
     state_b
   ],
-  dispatchCount: [ dc, dc, 1 ] 
+  dispatchCount: [dc, dc, 1] 
 
 })
 
-sg.run( compute, render )
+sg.run(compute, render)
