@@ -4,7 +4,7 @@
 
 # Explanation
 
-
+For this project I decided to create a twinkling glitter-like effect.
 
 # Code
 
