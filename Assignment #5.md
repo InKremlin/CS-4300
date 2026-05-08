@@ -4,7 +4,12 @@
 
 # Explanation
 
-For this project I decided to create a twinkling glitter-like effect.
+For this project I was inspired by the pixie dust effect from the original Kingdom Hearts, so I decided to create a twinkling glitter-like effect.
+
+https://www.youtube.com/watch?v=OiozewBcrk0
+
+The particle effect was created by
+I got feedback that to make the effect more like the reference I should add some gravity to make the sparkles fall.
 
 # Code
 
