@@ -4,7 +4,7 @@
 
 # Explanation
 
-For this project I was inspired by the pixie dust effect from the original Kingdom Hearts, so I decided to create a twinkling glitter-like effect.
+For this project I was inspired by the pixie dust effect from the original Kingdom Hearts, so I decided to create a twinkling glitter-like effect to mimic it.
 
 https://www.youtube.com/watch?v=OiozewBcrk0
 
