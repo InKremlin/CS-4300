@@ -8,8 +8,9 @@ For this project I was inspired by the pixie dust effect from the original Kingd
 
 https://www.youtube.com/watch?v=OiozewBcrk0
 
-The particle effect was created by
-I got feedback that to make the effect more like the reference I should add some gravity to make the sparkles fall.
+The particle effect was created by using the same quad drawing structure as the demo. First I froze the movements of the particles, I gave them a unique star like shape with some rays. I gave them a little glowing effect as well as some rotation to make it more visually interesting. The most important part is the flickering animation which makes the stars feel like they fade away over time, pretty much the most part for the pixie dust look.
+
+I got feedback that to make the effect more like the reference I should add some gravity to make the sparkles fall, and yeah frankly that's a no brainer.
 
 # Code
 
